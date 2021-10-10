@@ -82,7 +82,7 @@ window.addEventListener('DOMContentLoaded', () => {
     let s = 0;
 
     widgetButton.onclick = function() {
-        s || (iframeToLoadCryptoCoffee.src = "https://buymeacryptocoffee-i5jbgiaol-shindeajinkya.vercel.app/");
+        s || (iframeToLoadCryptoCoffee.src = "https://buymeacryptocoffee.vercel.app/");
         s++;
         a.style.display = "none";
         a.style.opacity = "0";

@@ -53,7 +53,7 @@ window.addEventListener('DOMContentLoaded', () => {
     iframeToLoadCryptoCoffee.style.backgroundRepeat = "no-repeat";
     iframeToLoadCryptoCoffee.style.zIndex = "999999";
     iframeToLoadCryptoCoffee.style.transition = "all .4s ease";
-    iframeToLoadCryptoCoffee.style.maxHeight = "500px";
+    iframeToLoadCryptoCoffee.style.maxHeight = "420px";
 
     const a = document.createElement('div');
 

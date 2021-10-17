@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
     widgetButton.style.color = "white";
     widgetButton.style.borderRadius = "32px";
     widgetButton.style.position = "fixed";
-    cryptoCoffeeWidgetScript.dataset.color === "left" ? widgetButton.style.left = cryptoCoffeeWidgetScript.dataset.x_margin + "px" : widgetButton.style.right = cryptoCoffeeWidgetScript.dataset.x_margin + "px";
+    cryptoCoffeeWidgetScript.dataset.position === "left" ? widgetButton.style.left = cryptoCoffeeWidgetScript.dataset.x_margin + "px" : widgetButton.style.right = cryptoCoffeeWidgetScript.dataset.x_margin + "px";
     widgetButton.style.bottom = cryptoCoffeeWidgetScript.dataset.y_margin + "px";
     widgetButton.style.boxShadow = '0 4px 8px rgba(0; 0, 0, 0.4)';
     widgetButton.style.zIndex = '9999';

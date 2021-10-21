@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
     widgetButton.style.fontWeight = '600';
     widgetButton.style.transition = 'all .2s ease';
 
-    widgetButton.innerHTML = '<img src="https://raw.githubusercontent.com/gist/shindeajinkya/36f04ac5c936df1c1831455dae9f7019/raw/942bbe041dbbda7d859a874721b787a8083b22dd/coffeecup.svg" alt="Buy Me A Crypto Coffee" style="height: 40px; width: 40px; margin: 0; padding: 0;">';
+    widgetButton.innerHTML = '<img src="https://raw.githubusercontent.com/gist/shindeajinkya/a6d782f79eaa945bd5f2a15cbd9af8e9/raw/99af9678cfa6e706162d83a95effdd4d454bc643/cryptocoffeelogo.svg" alt="Buy Me A Crypto Coffee" style="height: 40px; width: 40px; margin: 0; padding: 0;">';
 
     const t = document.createElement("div")
     t.style.position = "fixed";
@@ -47,13 +47,13 @@ window.addEventListener('DOMContentLoaded', () => {
     iframeToLoadCryptoCoffee.style.borderRadius = "10px";
     iframeToLoadCryptoCoffee.style.boxShadow = "-6px 0px 30px rgba(13, 12, 34, 0.1)";
     iframeToLoadCryptoCoffee.style.background = "#fff";
-    iframeToLoadCryptoCoffee.style.backgroundImage = "url(https://raw.githubusercontent.com/gist/shindeajinkya/6cc7d3e1a0e4ddf3c7528a5d29b184ca/raw/92d549af7833267f3f5ec160577ec94e629a593e/loader.svg)";
-    iframeToLoadCryptoCoffee.style.backgroundPosition = "center";
-    iframeToLoadCryptoCoffee.style.backgroundSize = "56px";
+    iframeToLoadCryptoCoffee.style.backgroundImage = "url(https://user-images.githubusercontent.com/51527913/138300448-23b75e7b-e7d5-4e66-b8ee-8d57ccbc997d.gif)";
+    iframeToLoadCryptoCoffee.style.backgroundPosition = "center bottom";
+    iframeToLoadCryptoCoffee.style.backgroundSize = "256px";
     iframeToLoadCryptoCoffee.style.backgroundRepeat = "no-repeat";
     iframeToLoadCryptoCoffee.style.zIndex = "999999";
     iframeToLoadCryptoCoffee.style.transition = "all .4s ease";
-    iframeToLoadCryptoCoffee.style.maxHeight = "420px";
+    iframeToLoadCryptoCoffee.style.maxHeight = "430px";
 
     const a = document.createElement('div');
 
@@ -107,7 +107,7 @@ window.addEventListener('DOMContentLoaded', () => {
         iframeToLoadCryptoCoffee.style.height = "0";
         iframeToLoadCryptoCoffee.style.opacity = "0";
         widgetButton.style.transform = "scale(1)";
-        widgetButton.innerHTML = '<img src="https://raw.githubusercontent.com/gist/shindeajinkya/36f04ac5c936df1c1831455dae9f7019/raw/942bbe041dbbda7d859a874721b787a8083b22dd/coffeecup.svg" alt="Buy Me A Crypto Coffee" style="height: 40px; width: 40px; margin: 0; padding: 0;">';
+        widgetButton.innerHTML = '<img src="https://raw.githubusercontent.com/gist/shindeajinkya/a6d782f79eaa945bd5f2a15cbd9af8e9/raw/99af9678cfa6e706162d83a95effdd4d454bc643/cryptocoffeelogo.svg" alt="Buy Me A Crypto Coffee" style="height: 40px; width: 40px; margin: 0; padding: 0;">';
     };
 
 })
